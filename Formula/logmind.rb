@@ -6,7 +6,7 @@ class Logmind < Formula
   url "https://files.pythonhosted.org/packages/da/75/6ba83a4d475fc78f957dc0495bc0feca83856ceeed82bc299ec9e63ebccb/logmind-0.3.0.tar.gz"
   sha256 "4d70f9956987571a812f495d6e9ae9e3e70552ba3b1a047fc0f28e2ad5091172"
   license "MIT"
-  head "https://github.com/thrillmot/logmind.git", branch: "main"
+  head "https://github.com/thrillmade/logmind.git", branch: "main"
 
   depends_on "python@3.12"
 

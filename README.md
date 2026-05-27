@@ -1,11 +1,11 @@
 # homebrew-logmind
 
-Homebrew tap for [logmind](https://github.com/thrillmot/logmind) — branch-aware AI decision logging.
+Homebrew tap for [logmind](https://github.com/thrillmade/logmind) — branch-aware AI decision logging.
 
 ## Install
 
 ```bash
-brew tap thrillmot/logmind
+brew tap thrillmade/logmind
 brew install logmind
 ```
 
@@ -19,5 +19,5 @@ brew upgrade logmind
 
 ```bash
 brew uninstall logmind
-brew untap thrillmot/logmind
+brew untap thrillmade/logmind
 ```
