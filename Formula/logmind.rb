@@ -3,8 +3,8 @@ class Logmind < Formula
 
   desc "Branch-aware AI decision logging for development projects"
   homepage "https://logmind.dev"
-  url "https://files.pythonhosted.org/packages/19/a7/50ba0e68dc8686543a4de6f17cc70d750cc88569d4db8c810471bc43ee1f/logmind-0.6.1.tar.gz"
-  sha256 "eea0588a8939ba6d987e938a4725a5d7d5b646e2d7d2d4c5baf16449054a7910"
+  url "https://files.pythonhosted.org/packages/3f/c8/39d304ebb39f58b3ce60078c49fa9ddee19914ee8a1cf287294cd872c1d3/logmind-0.6.2.tar.gz"
+  sha256 "b1cd2bad9e544d1e94459d680beef2174db38565a49ea0b12399a5110a9d4bfb"
   license "MIT"
   head "https://github.com/thrillmade/logmind.git", branch: "main"
 
