@@ -1,6 +1,6 @@
 # homebrew-logmind (deprecated)
 
-> ⚠️ **This tap is deprecated.** Use [`thrillmade/homebrew-tap`](https://github.com/thrillmade/homebrew-tap) instead — it hosts current versions of logmind + clud-bug + the `skdd-toolchain` meta-formula together (one-tap-per-org best practice, mirrors `aws/homebrew-tap`, `hashicorp/homebrew-tap`).
+> ⚠️ **This tap is deprecated.** Use [`thrillmade/homebrew-tap`](https://github.com/thrillmade/homebrew-tap) instead — it hosts current versions of logmind + clud-bug + the `skdd` meta-formula together (one-tap-per-org best practice, mirrors `aws/homebrew-tap`, `hashicorp/homebrew-tap`).
 
 ## New install path
 
@@ -9,7 +9,7 @@
 brew install thrillmade/tap/logmind
 
 # OR the full SkDD toolchain (logmind + clud-bug + baseline skills) in one command
-brew install thrillmade/tap/skdd-toolchain
+brew install thrillmade/tap/skdd
 ```
 
 ## Existing installs
@@ -24,7 +24,7 @@ brew untap thrillmade/logmind
 brew uninstall logmind                       # remove the v0.3.4 install
 brew install thrillmade/tap/logmind          # current version
 # OR
-brew install thrillmade/tap/skdd-toolchain   # logmind + clud-bug together
+brew install thrillmade/tap/skdd   # logmind + clud-bug together
 ```
 
 ---
