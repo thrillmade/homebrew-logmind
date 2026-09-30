@@ -1,0 +1,21 @@
+name: ci
+
+# Required by the org-wide "CI must pass" ruleset: every PR into a
+# default/dev branch must produce a status check named exactly `ci`.
+# This repo has no checks yet, so this job is a placeholder that always
+# succeeds. Replace it with real checks (e.g. `brew audit`/`brew style`
+# on the Formula) when they exist, and have this job wait on them.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  ci:
+    name: ci
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder
+        run: |
+          echo "Placeholder: this repo has no checks yet. Add real checks and make this job wait for them."
